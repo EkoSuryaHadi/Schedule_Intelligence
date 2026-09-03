@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-09-03 — System and Large File Architecture
+
+- Menetapkan modular pipeline: browser → object storage → queue → parser worker → schedule engine → PostgreSQL.
+- Menetapkan upload multipart langsung sampai 500 MB dengan retry, job lease, idempotensi, audit, dan retention policy.
+- Menetapkan AI sebagai consumer evidence read-only.
+
 ## 2026-09-03 — Schedule Data Foundation Plan
 
 - Menambahkan rencana implementasi delapan tugas untuk normalisasi revision, CPM, diagnostics, upload status, revision comparison, dan AI evidence boundary.
