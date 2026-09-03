@@ -28,8 +28,8 @@ Penomoran folder `00`–`07` mengikuti rekomendasi pengorganisasian dokumentasi 
 
 ### Architecture
 
-- [System Architecture](docs/01-architecture/system-architecture.md) — placeholder
-- [Large File Architecture](docs/01-architecture/large-file-architecture.md) — placeholder
+- [System Architecture](docs/01-architecture/system-architecture.md) — approved baseline
+- [Large File Architecture](docs/01-architecture/large-file-architecture.md) — approved baseline
 - [AI Architecture](docs/01-architecture/ai-architecture.md) — placeholder
 - [Agentic Architecture](docs/01-architecture/agentic-architecture.md) — placeholder
 
