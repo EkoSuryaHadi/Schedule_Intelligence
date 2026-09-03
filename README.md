@@ -9,12 +9,12 @@ Repository ini menjadi sumber utama dokumentasi produk dan teknis. Master dokume
 ## Mulai di sini
 
 1. Baca [PRD v1.0](docs/00-product/PRD-v1.0.md) sebagai baseline produk dari percakapan **Ide Aplikasi Analisis Ms Project**.
-2. Lanjutkan penyusunan [ERD](docs/02-data-model/ERD.md) dan [Universal Schedule Data Model](docs/02-data-model/universal-schedule-model.md).
-3. Turunkan hasilnya ke data dictionary, database schema, arsitektur, API, dan backlog implementasi.
+2. Baca [ERD](docs/02-data-model/ERD.md), [Universal Schedule Data Model](docs/02-data-model/universal-schedule-model.md), dan [Data Dictionary](docs/02-data-model/data-dictionary.md).
+3. Turunkan hasilnya ke arsitektur, API, dan backlog implementasi.
 
 ## Status dokumen
 
-PRD v1.0 disalin dari dokumen pada percakapan sumber. Dokumen lainnya berstatus **Placeholder — belum disusun** dan menyediakan tujuan serta ruang untuk pekerjaan berikutnya. Placeholder ADR belum merupakan keputusan yang disetujui.
+PRD v1.0 dan fondasi data model telah disusun. Dokumen lain yang tetap berstatus **Placeholder — belum disusun** menyediakan tujuan dan ruang untuk pekerjaan berikutnya.
 
 Penomoran folder `00`–`07` mengikuti rekomendasi pengorganisasian dokumentasi setelah PRD disusun. Struktur generik pada bagian 50 PRD tetap dipertahankan sebagai isi dokumen sumber; indeks di bawah menunjukkan struktur repo saat ini.
 
@@ -35,10 +35,11 @@ Penomoran folder `00`–`07` mengikuti rekomendasi pengorganisasian dokumentasi 
 
 ### Data Model
 
-- [Entity Relationship Diagram (ERD)](docs/02-data-model/ERD.md) — placeholder
-- [Universal Schedule Data Model](docs/02-data-model/universal-schedule-model.md) — placeholder
-- [Data Dictionary](docs/02-data-model/data-dictionary.md) — placeholder
-- [Database Schema](docs/02-data-model/database-schema.md) — placeholder
+- [Entity Relationship Diagram (ERD)](docs/02-data-model/ERD.md) — approved baseline
+- [Universal Schedule Data Model](docs/02-data-model/universal-schedule-model.md) — approved baseline
+- [Data Dictionary](docs/02-data-model/data-dictionary.md) — approved baseline
+- [Database Schema](docs/02-data-model/database-schema.md) — approved baseline
+- [Editable ERD source](docs/02-data-model/diagrams/schedule-erd.mmd)
 
 ### API
 
@@ -67,7 +68,7 @@ Penomoran folder `00`–`07` mengikuti rekomendasi pengorganisasian dokumentasi 
 
 ### Architecture Decision Records
 
-- [ADR-001: Universal Schedule Model](docs/07-decisions/ADR-001-universal-schedule-model.md) — placeholder
+- [ADR-001: Universal Schedule Model](docs/07-decisions/ADR-001-universal-schedule-model.md) — accepted
 
 ## Pengelolaan dokumentasi
 
@@ -78,4 +79,4 @@ Penomoran folder `00`–`07` mengikuti rekomendasi pengorganisasian dokumentasi 
 
 ## Langkah berikutnya
 
-Susun **ERD + Universal Schedule Data Model** untuk menetapkan entitas, hubungan, identitas lintas revision, kalender, dependency, baseline, progress, dan pemetaan data sumber sebelum implementasi parser serta schedule engine.
+Susun **System Architecture + Large File Architecture**, menggunakan data model ini sebagai kontrak parser, storage, processing queue, deterministic CPM engine, dan AI query layer sebelum implementasi aplikasi.
