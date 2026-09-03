@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-09-03 — Schedule Data Foundation Plan
+
+- Menambahkan rencana implementasi delapan tugas untuk normalisasi revision, CPM, diagnostics, upload status, revision comparison, dan AI evidence boundary.
+- Rencana ini tidak memulai implementasi aplikasi.
+
 ## 2026-09-03 — Universal Schedule Data Model
 
 - Menetapkan revision snapshot model: setiap upload adalah snapshot immutable dan baseline dipilih sebagai satu schedule revision.
