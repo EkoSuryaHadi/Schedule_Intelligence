@@ -63,7 +63,7 @@ Penomoran folder `00`–`07` mengikuti rekomendasi pengorganisasian dokumentasi 
 ### Development
 
 - [Sprint Backlog](docs/06-development/sprint-backlog.md) — placeholder
-- [Implementation Plan](docs/06-development/implementation-plan.md) — placeholder
+- [Implementation Plan](docs/06-development/implementation-plan.md) — approved schedule data foundation plan
 - [Definition of Done](docs/06-development/definition-of-done.md) — placeholder
 
 ### Architecture Decision Records
